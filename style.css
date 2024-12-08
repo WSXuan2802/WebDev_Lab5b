@@ -1,0 +1,78 @@
+body {
+    background-image: url("main1.png");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+input[type="submit"] ,button{
+    margin-left: 10px;
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #4CAF50;  /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover , button:hover{
+    background-color: #45a049;  /* Darker green on hover */
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    border-color: black;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button.updateButton{
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #62a3ff;  /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.updateButton:hover{
+    background-color: #1c6ab7;  /* Darker green on hover */
+}
+
+
+button.deleteButton{
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #ff0707;  /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.deleteButton:hover{
+    background-color: #f24a4a;  /* Darker green on hover */
+}
